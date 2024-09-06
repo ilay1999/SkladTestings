@@ -1,0 +1,165 @@
+* {											
+	box-sizing: border-box;
+}
+
+a{
+	margin: 1%;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+p{
+	margin: 1%;
+	padding: 1%;
+}
+
+img{
+	width: 130px;
+	height: 150px;
+
+	border: 2px solid #E21F4D;
+	border-radius: 25px;
+	padding: 2%;
+	margin: 3%;
+}
+
+input{
+	margin: 1%;
+	text-align: center;
+}
+
+body{
+	text-align: center;
+	align-content: center;
+	text-align: center;
+	align-content: center;
+	flex-direction: column, center;
+
+	background-color: #f5f0f2;
+}
+
+.nvi{
+	visibility: hidden;
+  }
+
+.main{
+	display: flex;
+	flex-direction: column;
+
+	align-self: center;
+	align-items: center;
+	align-content: center;
+}
+
+.ThemePanel{
+	margin-top: 1%;
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: row;
+
+	border: black 2px  solid;
+	border-radius: 7px;
+}
+	.themes{
+		margin-top: 3%;
+		margin-left: 5%;
+		width: 90%;
+		height: auto;
+
+		border: black 2px  solid;
+		border-radius: 7px;
+	}
+	.themesDiv{
+		display: flex;
+		justify-items: stretch;
+		align-content: stretch;
+		flex-direction: row-reverse;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.themesPaginnation{
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+	}
+	.themesElem{
+		margin: 1%;
+		width: auto;
+		height: auto;
+
+		border: gray 1px  solid;
+		border-radius: 3px;
+	}
+
+.answears{
+	margin-top: 1%;
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+
+	border: black 2px  solid;
+	border-radius: 7px;
+}
+	.answearsDiv{
+		display: flex;
+		flex-direction: column;
+	}
+	.answearsPaginnation{
+		display: flex;
+		flex-direction: row-reverse;
+		flex-wrap: nowrap;
+		align-content: center;
+		justify-content: center;
+	}
+	.answearsElem{
+		margin: 1%;
+		width: auto;
+		height: auto;
+
+		border: gray 1px  solid;
+		border-radius: 3px;
+	}
+		.answearsElemInfo{
+			display: flex;
+			flex-direction: row;
+
+			width: auto;
+			height: auto;
+		}
+		.answearsElemText{
+			width: auto;
+			height: auto;
+		}
+	.answear{
+		margin-top: 1%;
+		margin-bottom: 1%;
+		margin-left: 5%;
+		width: 90%;
+		height: auto;
+
+		display: flex;
+		flex-direction: column;
+
+		border: black 2px  solid;
+		border-radius: 3px;
+	}
+.productLine{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	margin-left: 5%;
+	width: 90%;
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+
+	border: black 1px  solid;
+	border-radius: 3px;
+}
